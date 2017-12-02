@@ -2,7 +2,7 @@
 
 ### Final Project: Total Variation Denoising 
 
-The function takes a bitmap image (*.ppm) as an input argument. The function takes the image, adds Gaussian white noise and performs total variation denoising. The output are one noisy image and one denoised image. There is an image included in the file \texttt{bicycle.ppm}. If you are interested in running the code with this image, simply type:
+The function takes a bitmap image (*.ppm) as an input argument. The function takes the image, adds Gaussian white noise and performs total variation denoising. The output are one noisy image and one denoised image. There is an image included in the file ```C bicycle.ppm```. If you are interested in running the code with this image, simply type:
 
 ```C
 nvcc -o tv TV_denoise.cu ppma_io.c -lm
